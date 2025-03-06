@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Vi Danta</string>
+
+    <!-- Labels and Buttons for Welcome Screen -->
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="login_as_admin">Login as Admin</string>
+    <string name="register_label">Register to get started</string>
+    <string name="login_label">Login to continue</string>
+    <string name="logo_desc">Vi-Danta Logo</string>
+
+    <!-- Labels and Buttons for d1.xml -->
+    <string name="title_text">Vi - Danta</string>
+    <string name="treatment_details">TREATMENT DETAILS</string>
+    <string name="edit_button">EDIT</string>
+
+    <!-- Patient Entry Screen -->
+    <string name="patient_details">Patient Details</string>
+    <string name="patient_name">Patient Name:</string>
+    <string name="hint_patient_name">Enter patient name</string>
+
+    <string name="age">Age:</string>
+    <string name="hint_age">Enter age</string>
+
+    <string name="gender">Gender:</string>
+    <string name="hint_gender">Enter gender</string>
+
+    <string name="mobile_number">Mobile Number:</string>
+    <string name="hint_mobile_number">Enter mobile number</string>
+
+    <string name="address">Address:</string>
+    <string name="hint_address">Enter address</string>
+
+    <!-- Navigation Buttons -->
+    <string name="previous">←</string>
+    <string name="next">→</string>
+
+    <!-- Appointment Details Screen -->
+    <string name="appointment_details">APPOINTMENT DETAILS</string>
+    <string name="op_number">OP Number:</string>
+    <string name="receipt_number">Receipt Number:</string>
+    <string name="doctor_name">Doctor Name:</string>
+    <string name="date">Date:</string>
+    <string name="enter_op_number">Enter OP Number</string>
+    <string name="enter_receipt_number">Enter Receipt Number</string>
+    <string name="enter_doctor_name">Enter Doctor Name</string>
+    <string name="enter_date">Enter Date</string>
+
+    <!-- Hints for Treatment Details -->
+    <string name="hint_treatment_required">Enter Treatment Required</string>
+    <string name="hint_treatment_done">Enter Treatment Done</string>
+    <string name="hint_amount">Enter Amount</string>
+    <string name="hint_disease">Enter Disease</string>
+
+    <!-- Dropdown Menu -->
+    <string name="select_cluster">Select Cluster</string>
+
+    <!-- OTP Verification -->
+    <string name="enter_otp_code">Enter OTP Code</string>
+    <string name="hint_enter_otp">Enter OTP</string>
+    <string name="otp_info">Enter OTP you received from Vi - Danta</string>
+    <string name="verify_otp">Verify OTP</string>
+
+    <!-- Dashboard Screen -->
+    <string name="dashboard_title">Vi - Danta</string>
+    <string name="patient_details_button">PATIENT DETAILS</string>
+    <string name="appointment_details_button">APPOINTMENT DETAILS</string>
+    <string name="treatment_details_button">TREATMENT DETAILS</string>
+
+
+    <!-- Patient Details Screen -->
+    <string name="patient_summary_title">PATIENT DETAILS</string>
+    <string name="label_patient_name">Patient Name:</string>
+    <string name="label_age">Age:</string>
+    <string name="label_gender">Gender:</string>
+    <string name="label_mobile_number">Mobile Number:</string>
+    <string name="label_address">Address:</string>
+    <string name="next_button">Next</string>
+    <string name="previous_button">Previous</string>
+
+
+
+
+</resources>

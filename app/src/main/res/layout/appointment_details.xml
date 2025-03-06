@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FBFBFB"
+    tools:context=".AppointmentDetailsActivity">
+
+    <!-- CardView Container -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="360dp"
+        android:layout_height="683dp"
+        android:layout_margin="30dp"
+        android:elevation="50dp"
+        android:padding="50dp"
+        app:cardBackgroundColor="#DBECF2"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.9">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+            <!-- Title -->
+            <TextView
+                android:id="@+id/titleText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="APPOINTMENT DETAILS"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- OP Number -->
+
+            <!-- Receipt Number -->
+            <TextView
+                android:id="@+id/labelOpNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="15dp"
+                android:text="OP Number:"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/titleText" />
+
+            <EditText
+                android:id="@+id/etOpNumber"
+                android:layout_width="290dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/white"
+                android:hint="Enter OP Number"
+                android:padding="12dp"
+                android:textColor="@android:color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.25"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/labelOpNumber" />
+
+            <!-- Doctor Name -->
+
+            <TextView
+                android:id="@+id/labelReceiptNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="24dp"
+                android:text="Receipt Number:"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/etOpNumber" />
+
+            <EditText
+                android:id="@+id/etReceiptNumber"
+                android:layout_width="290dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="8dp"
+                android:background="@android:color/white"
+                android:hint="Enter Receipt Number"
+                android:padding="12dp"
+                android:textColor="@android:color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.25"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/labelReceiptNumber" />
+
+            <TextView
+                android:id="@+id/labelDoctorName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="20dp"
+                android:text="Doctor Name:"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/etReceiptNumber" />
+
+            <!-- Date -->
+            <EditText
+                android:id="@+id/etDoctorName"
+                android:layout_width="290dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/white"
+                android:hint="Enter Doctor Name"
+                android:padding="12dp"
+                android:textColor="@android:color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.25"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/labelDoctorName" />
+
+            <TextView
+                android:id="@+id/labelDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                android:text="Date:"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/etDoctorName" />
+
+            <!-- Previous Button -->
+
+            <!-- Next Button -->
+
+            <EditText
+                android:id="@+id/etDate"
+                android:layout_width="290dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/white"
+                android:hint="Enter Date"
+                android:padding="12dp"
+                android:textColor="@android:color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.25"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/labelDate" />
+
+            <Button
+                android:id="@+id/buttonPrevious"
+                android:layout_width="68dp"
+                android:layout_height="56dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="36dp"
+                android:backgroundTint="@android:color/white"
+                android:elevation="15dp"
+                android:padding="12dp"
+                android:text="@string/previous"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/etDate" />
+
+            <Button
+                android:id="@+id/buttonNext"
+                android:layout_width="68dp"
+                android:layout_height="56dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="@android:color/white"
+                android:elevation="15dp"
+                android:padding="12dp"
+                android:text="@string/next"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/etDate" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
