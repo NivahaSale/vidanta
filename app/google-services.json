@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "5594806540",
+    "project_id": "vi-danta-8c386",
+    "storage_bucket": "vi-danta-8c386.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5594806540:android:44e7bdd6c9063aa1477129",
+        "android_client_info": {
+          "package_name": "com.danta.vidanta"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPxUUleTu-U1Lp8QPipAaBtNAtnXryXVg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
